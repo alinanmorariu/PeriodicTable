@@ -1,0 +1,31 @@
+{
+  "name": "periodictable",
+  "version": "1.0.0",
+  "description": "Periodic table",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec --verbose --captureExceptions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinanmorariu/PeriodicTable.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "Express",
+    "Jasmine"
+  ],
+  "author": "Alina Morariu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinanmorariu/PeriodicTable/issues"
+  },
+  "homepage": "https://github.com/alinanmorariu/PeriodicTable#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "request": "^2.83.0"
+  }
+}
